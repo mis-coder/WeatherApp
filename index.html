@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel ="stylesheet" href="style.css">
+    <title>WeatherApp</title>
+</head>
+<body>
+    <div class="container header-section">
+        <img src="images/wicon.jpg" height="80px" width="80px">
+        <h1 class="heading-name">Weather App</h1>
+    </div>
+    <div class="loc">
+        <h1>city</h1>
+        <h2>country</h2>
+    </div>
+    <div class="temp">
+        <div class="degree">
+        <h2 class="temp-degree">temp</h2>
+        <span><b>°C</b></span>
+        <p class="icon-id">icon</p>
+        </div>
+        <div class="description"><b><i>its cold</i></b></div>
+    </div>
+    <section class="description-div">
+        <div class="container">
+        <div class="row text-center">        
+            <div class="col-lg-4 col-md-4 col-12 pressure">
+               <p>Pressure: <span>value</span>bar</p>
+                </div>
+            <div class="col-lg-4 col-md-4 col-12 humidity">
+                <p>Humidity: <span class="hspan">value</span>%</p>
+                </div>
+            <div class="col-lg-4 col-md-4 col-12 wind">
+                <p>Wind-speed: <span class="wspan">value</span>km/h</p>
+                </div>
+             </div>   
+            </div>
+        </section>
+    <script src="app.js"></script>
+</body>
+</html>
